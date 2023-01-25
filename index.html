@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--MetaViewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Titulo" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content=" http://www.example.com" />
+        <meta property="og:image" content=" http://example.com/image.jpg" />
+        <meta property="og:description" content="Este es un documento que cuenta cuales son los elementos semánticos más utilizados" />
+        <!--Icono-->
+        <link rel="icon" type="image/x-icon" href="FOLDER05.ICO">
+        <!--CSS-->
+        <link rel="stylesheet" href="cv_css.css">
+        <!--Tipografia-->
+        <link rel="stylesheet" type="text/css" href="css-selectores-y-tipografias.css"/>
+        <enlace rel="preconectar" href="https://fonts.googleapis.com">
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+        <enlace href="https: //fonts.googleapis.com/css2? familia= Lato:ital,peso@0,100;0,700;1,100;1,700 & display=swap" rel="stylesheet">
+        <!--Solapa-->
+        <title>Currículum Vitae</title>
+    </head>
+
+    <body>
+        <!--Ruta JS-->
+        <header>
+        <!--NAVEGADOR-->
+            <nav>
+                <ul>
+                    <li><a onclick="alerta1()" href="#cv_nombre">Inicio</a></li>
+                    <script>
+                        function alerta1() {  
+                            alert("ir a Inicio");
+                        } 
+                    </script>
+                    <li id="ref_personal"><a onclick="alerta2()" href="#d_personales">Datos personales</a></li>
+                    <script>    
+                        function alerta2() {  
+                            alert("Ir a Datos personales");
+                        } 
+                    </script>
+                    <li><a onclick="alerta3()" href="#d_laborales">Antecedentes laborales</a></li>
+                    <script>
+                        function alerta3() {  
+                            alert("Ir a Antecedentes laborales");
+                        } 
+                    </script>
+                    <li><a onclick="alerta4()" href="#d_contacto">Contacto</a></li>
+                    <script>
+                        function alerta4() {  
+                            alert("Ir a Contacto");
+                        } 
+                    </script>
+                </ul>    
+            </nav>    
+        </header>
+
+        <main>
+        <!--ENCABEZADO-->
+            <section id="cv_nombre">
+                <h1>Axel Gustavo Sundberg</h1>
+                <h2>Currículum Vitae</h2>
+            </section>
+            <section id="cv_info">
+                <li id = "personal">informacion personal</l1>
+                <br>
+                <li id="laboral">informacion laboral</l1>
+                <br>
+                <li id="contacto">contacto</l1>
+            </section>
+        <!--DATOS PERSONALES-->
+            <section id="d_personales">
+                <h2>Datos personales</h2>
+                <!--Encabezado D.Personales-->
+                <div class="class_lista">
+                    <div class="class_detalle">
+                        <div>
+                            <br>
+                            <h4>Foto perfil</h4>
+                            <br>
+                            <img id="perfil" src="foto_perfil.jpg">
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Nombre y Apellido</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>Axel Gustavo Sundberg</h3>                        
+                        </div>
+                        <div>    
+                            <br>
+                            <h4>Nacionalidad</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>Argentino</h3>                        
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Fecha de nacimiento</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>02/07/1964</h3>                        
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Domicilio</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>España 140</h3>                        
+                            <h3>Santa Rosa de Calamuchita</h3>                        
+                            <h3>CP - 5196</h3>                        
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Telefono</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>+49 15 3546 490460</h3>                        
+                        </div>
+                        <div>    
+                            <br>
+                            <h4>Mail</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>gustavosundberg@gmail.com</h3>                        
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Estudios</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>Secundario - "Perito mercantil"</h3>                        
+                            <br>
+                            <h3>Universitario - Cursado completo "Ing. Civil - UTN"</h3>                        
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Idiomas</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>Castellano</h3>                        
+                            <br>
+                            <h3>Ingles (solo lectura/escritura)</h3>                        
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Ubicación</h4>
+                            <br>
+                            <br>
+                            <a href="https://www.google.com.ar/maps/@-32.0646448,-64.542028,18z?hl=es" target="_blank">Enlace Mi ubicación</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!--ANTECEDENTES LABORALES-->
+            <section id="d_laborales">
+                <h2>Antecedentes Laborales</h2>
+                <!--Encabezado Laboral-->
+                <div class="class_lista">
+                    <div class="class_detalle2">
+                        <div>
+                            <h4>Antecedente</h3>
+                        </div>
+                        <div>
+                            <h4>Empresa / Actividad</h3>
+                        </div>
+                        <div>    
+                            <h4>desde - hasta</h3>
+                        </div>
+                        <div>
+                            <h4>Desempeño laboral</h3>
+                        </div>
+                        <div>
+                            <h4>Referencia / Enlace</h3>
+                        </div>
+                    </div>
+                </div>
+                <!--Laboral 1-->
+                <div class="class_lista">
+                    <div class="class_detalle2">
+                        <div>
+                            <h3>Antecedente 1</h3>
+                        </div>
+                        <div>
+                            <h3>S.E.H.A.S / Programación</h3>
+                        </div>
+                        <div>    
+                            <h3>2002 - 2008</h3>
+                        </div>
+                        <div>
+                            <p>-Sistema de Base de Datos Institucional (diseño, desarrollo y mantenimiento) - FOXPRO DOS</p>
+                        </div>
+                        <div>
+                            <a href="http://google.es" target="_blank">Abrir enlace Antecedente 1</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Laboral 2-->
+                <div class="class_lista">
+                    <div class="class_detalle2">
+                        <div>
+                            <h3>Antecedente 2</h3>
+                        </div>
+                        <div>
+                            <h3>S.E.H.A.S / Programación</h3>
+                        </div>
+                        <div>    
+                            <h3>2002 - 2008</h3>
+                        </div>
+                        <div>
+                            <p>-Sistema de Base de Datos de organizaciones (diseño, desarrollo y mantenimiento) - Multiusuario / FPW 2.6 / SQL</p>                        
+                        </div>
+                        <div>
+                            <a href="http://google.es" target="_blank">Abrir enlace Antecedente 2</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Laboral 3-->
+                <div class="class_lista">
+                    <div class="class_detalle2">
+                        <div>
+                            <h3>Antecedente 3</h3>
+                        </div>
+                        <div>
+                            <h3>S.E.H.A.S / Programación</h3>
+                        </div>
+                        <div>    
+                            <h3>2002 - 2008</h3>
+                        </div>
+                        <div>
+                            <p>-Sistema Admin/Computo/Presup. Fondo de Crédito (diseño, desarrollo y mantenimiento) - Multiusuario / FPW 2.6 / SQL</p>                        
+                        </div>
+                        <div>
+                            <a href="http://google.es" target="_blank">Abrir enlace Antecedente 3</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Laboral 4-->
+                <div class="class_lista">
+                    <div class="class_detalle2">
+                        <div>
+                            <h3>Antecedente 4</h3>
+                        </div>
+                        <div>
+                            <h3>C.E.V.E. / Programación</h3>
+                        </div>
+                        <div>    
+                            <h3>2002 - 2008</h3>
+                        </div>
+                        <div>
+                            <p>-Sistema Admin/Computo/Presup. Fondo de Crédito (diseño, desarrollo y mantenimiento) - Multiusuario / FPW 2.6 / SQL</p>                        
+                        </div>
+                        <div>
+                            <a href="http://google.es" target="_blank">Abrir enlace Antecedente 4</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Laboral 5-->
+                <div class="class_lista">
+                    <div class="class_detalle2">
+                        <div>
+                            <h3>Antecedente 5</h3>
+                        </div>
+                        <div>
+                            <h3>Evelia Transporte S.R.L. / Programación</h3>
+                        </div>
+                        <div>    
+                            <h3>2002 - 2008</h3>
+                        </div>
+                        <div>
+                            <p>-Sistema Admin/Contro Operacional (diseño, desarrollo y mantenimiento) - Multiusuario / FPW 2.6 / SQL</p>                        
+                        </div>
+                        <div>
+                            <a href="http://google.es" target="_blank">Abrir enlace Antecedente 5</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Laboral 6-->
+                <div class="class_lista">
+                    <div class="class_detalle2">
+                        <div>
+                            <h3>Antecedente 6</h3>
+                        </div>
+                        <div>
+                            <h3>Municipalidad de Unquillo / Programación</h3>
+                        </div>
+                        <div>    
+                            <h3>2002 - 2008</h3>
+                        </div>
+                        <div>
+                            <p>-Sistema Admin/Computo/Presup. Fondo de Subsidio para vivienda (diseño, desarrollo y mantenimiento) - Multiusuario / FPW 2.6 / SQL</p>                        
+                        </div>
+                        <div>
+                            <a href="http://google.es" target="_blank">Abrir enlace Antecedente 6</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        <!--CONTACTO-->
+            <section id="d_contacto">
+                <h2>Contacto</h2>
+                <div class="class_lista">
+                    <div class="class_detalle3">
+                        <div>
+                            <br>
+                            <h4>Contacta conmigo</h4>
+                            <br>
+                            <img id="perfil" src="foto_perfil.jpg">
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Nombre</h4>
+                            <br>
+                            <label>Nombre</label>
+                            <input type="text" placeholder="Escriba su nombre">
+                            <br>
+                        </div>
+                        <div>
+                            <br>
+                            <h4>Asunto</h4>
+                            <br>
+                            <label>Asunto</label>
+                            <input type="text" placeholder="Escriba el asunto">
+                            <br>
+                        </div>
+                        <div>
+                            <br>    
+                            <h4>Mensaje</h4>
+                            <br>
+                            <label>Mensaje</label>
+                            <textarea placeholder="Escriba su mensaje" cols="35" rows="7"></textarea>
+                            <br>
+                        </div>
+                        <div>
+                            <br>    
+                            <h4>Enviar mensaje</h4>
+                            <br>
+                            <a href="mailto:gustavosundberg@gmail.com">Envia tu mensaje</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>        
+    </body>
+</html>
